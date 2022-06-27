@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.ig-wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 72px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.ig-presentation .phone-presentation{
+    position: relative;
+}
+.ig-presentation .phone-presentation::before{
+    content: url('../images/demo1.png');
+    position: absolute;
+    top: 28px;
+    right: 60px;
+    animation: phone_presentations 12s infinite ease-in-out;
+}
+@keyframes phone_presentations{
+    0% {content: url('../images/demo1.png');}
+    25% {content: url('../images/demo2.png');}
+    50% {content: url('../images/demo3.png');}
+    75% {content: url('../images/demo4.png');}
+}
+
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+.login-container{
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 8px 36px 16px 36px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 350px;
+}
+.login-container .logo{
+    margin: 36px 0;
+}
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login-container form input{
+    background-color: #fafafa;
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+    margin: 3px 0;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.login-container form input::placeholder {
+  color: #9c9c9c;
+  opacity: 1; /* Firefox */
+}
+
+.login-container form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #9c9c9c;
+}
+
+.login-container form input::-ms-input-placeholder { /* Microsoft Edge */
+ color: #9c9c9c;
+}
+.login-container button{
+    padding: 6px 0;
+    margin: 3px 0;
+    background-color: #0095f64d;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.break{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 14px;
+    color: #9c9c9c;
+    font-weight: 600;
+}
+.break div{
+    border-top: 1px solid #dbdbdb;
+    background-color: #fff;
+    width: 100px;
+    height: 2px;
+}
+
+.login-facebook{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #385185;
+    margin: 8px 0 16px 0;
+    display: flex;
+    align-items: center;
+}
+.login-facebook img{
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.reset-password{
+    text-decoration: none;
+    font-size: 12px;
+    color: #385185;
+}
+
+.register{
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 6px 36px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 350px;
+    margin-top: 10px;
+}
+.register a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0095f6;
+}
+
+.get-app{
+    padding: 6px 36px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+.get-app img{
+    width: 100%;
+    max-width: 136px;
+    margin: 0 2px;
+}
+.get-app .stores{
+    display: flex;
+}
+
+footer{
+ padding: 8px 48px 48px 48px;
+ width: 100%;
+ max-width: 1024px;
+ margin: 0 auto;
+}
+footer section{
+    text-align: center;
+}
+footer section a{
+    margin: 0 8px;
+    font-size: 12px;
+    color: #9c9c9c;
+    text-decoration: none;
+}
+footer section svg{
+    transform: rotate(180deg);
+}
+footer section:nth-child(2){
+    margin-top: 16px;
+}
+
+@media (max-width: 875px){
+    .ig-presentation{
+        display: none;
+    }
+}
+
+@media (max-width: 450px){
+    .login-container{
+        border: none;
+        background-color: transparent;
+    }
+    .ig-wrapper{
+        margin-top: 8px;
+    }
+    .register{
+        border: none;
+        background-color: transparent;
+    }
+}
