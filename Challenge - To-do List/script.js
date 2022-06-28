@@ -1,3 +1,5 @@
+var TODO_ITEMS = 0;
+
 const getById = (id) => {
     const element = document.getElementById(id);
     return element;
@@ -24,7 +26,7 @@ const handleDeleteTodo = (item) => {
 const addTodo = () => {
     const todo = getById('input-to-do').value;
     if(todo.length > 0){
-        let key = (getByClass('to-do-item').length + 1);
+        let key = TODO_ITEMS++;
         let li = document.createElement('li');
         let btn = document.createElement('button');
         let input = document.createElement('input');
@@ -41,19 +43,17 @@ const addTodo = () => {
         label.id = 'to-do-label-' + key;
         label.className = 'to-do-label';
         label.title = 'Marcar';
-
-        getById('to-do-list').appendChild(li);
+        
         li.appendChild(btn);
         li.appendChild(input);
         li.appendChild(label);
         btn.appendChild(document.createTextNode('❌'));
         label.appendChild(document.createTextNode(todo));
-        
-        btn.addEventListener('click', (e) => handleDeleteTodo(e.target), false);
-        input.addEventListener('change', (e) => handleTodoItemChange(e.target),false);
-
         getById('to-do-list').appendChild(li);
         getById('input-to-do').value = '';
+
+        btn.addEventListener('click', (e) => handleDeleteTodo(e.target), false);
+        input.addEventListener('change', (e) => handleTodoItemChange(e.target),false);        
     }
 }
 
