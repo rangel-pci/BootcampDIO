@@ -34,7 +34,7 @@ const addTodo = () => {
 
         li.className = 'to-do-item';
         btn.className = 'delete';
-        btn.title = 'Deletar';
+        btn.title = 'Delete';
         input.type = 'checkbox';
         input.name = 'to-do-item';
         input.id = 'to-do-item-'+ key;
@@ -42,7 +42,7 @@ const addTodo = () => {
         label.htmlFor = input.id;
         label.id = 'to-do-label-' + key;
         label.className = 'to-do-label';
-        label.title = 'Marcar';
+        label.title = 'Scratch';
         
         li.appendChild(btn);
         li.appendChild(input);
