@@ -23,3 +23,10 @@
 - :books: JavaScript fundamentals
 
 ##
+
+<h3 id="TypeScript-Introduction">TypeScript Introduction</h3>
+<a href="https://github.com/rangel-pci/BootcampDIO/tree/master/TypeScript%20-%20Introduction">/BootcampDIO/TypeScript - Introduction/</a>
+<h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/typescriptLesson.png" alt="TypeScript Introduction"></kbd></h6>
+- :books: JavaScript fundamentals
+
+##
