@@ -6,6 +6,7 @@
 <ol>
     <li><a href="#Instagram">Challenge - Instagram Login Page</a></li>
     <li><a href="#To-do-list">Challenge - To-do List</a></li>
+    <li><a href="#TypeScript-Introduction">TypeScript Introduction</a></li>
 </ol>
 
 ##
@@ -21,5 +22,12 @@
 <a href="https://github.com/rangel-pci/BootcampDIO/tree/master/Challenge%20-%20To-do%20List">/BootcampDIO/Challenge - To-do List/</a>
 <h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/to-do-list.gif" alt="To-do App"></kbd></h6>
 - :books: JavaScript fundamentals
+
+##
+
+<h3 id="TypeScript-Introduction">TypeScript Introduction</h3>
+<a href="https://github.com/rangel-pci/BootcampDIO/tree/master/TypeScript%20-%20Introduction">/BootcampDIO/TypeScript - Introduction/</a>
+<h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/typescriptLesson.png" alt="TypeScript Introduction"></kbd></h6>
+- :books: TypeScript fundamentals, classes, types and interfaces
 
 ##
