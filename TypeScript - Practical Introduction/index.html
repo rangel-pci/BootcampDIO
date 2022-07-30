@@ -5,15 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <input type="text" id="input1">
+    <!-- <input type="text" id="input1">
     <input type="text" id="input2">
-    <button id="btn1">click</button>
+    <button id="btn1">click</button> -->
+
+    <!-- <h4>Valor a ser adicionado: <input id="soma"> </h4>
+    <button id="atualizar-saldo">Atualizar saldo</button>
+    <button id="limpar-saldo">Limpar seu saldo</button>
+    <h1>"Seu saldo é: " <span id="campo-saldo"></span></h1> -->
+    
+    <div style="display: flex;gap: 8px;margin: 0 auto;width: fit-content;">
+        <div class="login">
+            <input id="login" placeholder="Login" onchange="preencherLogin(event)">
+            <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+            <input id="api-key" placeholder="Api Key" onchange="preencherApi()">
+            <button id="login-button" disabled>Login</button>
+        </div>
+        <div id="search-container">
+            <input id="search" placeholder="Escreva...">
+            <button id="search-button">Search Movie</button>
+            
+            <div class="search-list">
+                <ul id="lista">
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <!-- <script src="./examples/basic-validation.js" defer></script> -->
-        <script src="./dist/app.js" defer></script>
+        <script src="./dist/app.js" defer></script>    
     </footer>
 </body>
 </html>
