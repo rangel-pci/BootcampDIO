@@ -31,3 +31,10 @@
 - :books: TypeScript fundamentals, classes, types and interfaces
 
 ##
+
+<h3 id="TypeScript-tmdb">TypeScript TMDB Integration</h3>
+<a href="https://github.com/rangel-pci/BootcampDIO/tree/master/Challenge%20-%20TypeScript">/BootcampDIO/Challenge - TypeScript/</a>
+<h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/tsTMDB.png" alt="TypeScript TMDB Integration"></kbd></h6>
+- :books: Code improvement, application finalization, JS to Typescript
+
+##
