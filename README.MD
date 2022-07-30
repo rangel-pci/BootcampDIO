@@ -7,6 +7,7 @@
     <li><a href="#Instagram">Challenge - Instagram Login Page</a></li>
     <li><a href="#To-do-list">Challenge - To-do List</a></li>
     <li><a href="#TypeScript-Introduction">TypeScript Introduction</a></li>
+    <li><a href="#TypeScript-tmdb">Challenge - TypeScript TMDB Integration</a></li>
 </ol>
 
 ##
