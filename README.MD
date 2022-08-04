@@ -8,6 +8,8 @@
     <li><a href="#To-do-list">Challenge - To-do List</a></li>
     <li><a href="#TypeScript-Introduction">TypeScript Introduction</a></li>
     <li><a href="#TypeScript-tmdb">Challenge - TypeScript TMDB Integration</a></li>
+    <li><a href="#naruto-react">Test-Driven Development - Naruto Quotes</a></li>
+    <li><a href="#react-componentization">Challenge - Componentized Application</a></li>
 </ol>
 
 ##
@@ -40,9 +42,16 @@
 
 ##
 
-<h3 id="TypeScript-tmdb">Naruto Quotes Client</h3>
+<h3 id="naruto-react">Naruto Quotes Client</h3>
 <a href="https://github.com/rangel-pci/BootcampDIO/tree/master/ReactJs%20-%20Test-Driven%20Development/project">/BootcampDIO/ReactJs - Test-Driven Development/</a>
 <h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/Cap_quotes.png" alt="Naruto Quotes Client"></kbd></h6>
+- :books: TDD, react testing library, best pratices, State, Hook, Effect
+
+##
+
+<h3 id="react-componentization">GitHub Repos</h3>
+<a href="https://github.com/rangel-pci/BootcampDIO/tree/master/ReactJs%20-%20Componentization/project">/BootcampDIO/ReactJs - ReactJs - Componentization/</a>
+<h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/cap_github_api.png.png" alt="GitHub Client"></kbd></h6>
 - :books: TDD, react testing library, best pratices, State, Hook, Effect
 
 ##
