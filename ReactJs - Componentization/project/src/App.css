@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  background-color: #0d1117;
+  color:#545d68;
+  min-height: 100vh;
+}
+
+a {
+  color: #61dafb;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+}
+.info-container{
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 2px;
+  margin: 8px;
+  margin-top: 38px
+}
+.info-container img{
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+.info-container p{
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 500;
+  background-color: #ddd;
+  border-radius: 1px;
+  text-align: center;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+.label{
+  width: max-content;
+}
+.label-name{
+  font-weight: 600;
+  margin-right: 4px;
+  color: #373e47;
+}
+.info-container.social{
+  display: flex;
+  gap: 4px;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 0;
+}
+.label.social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: .8rem;
+
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.repositories{
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.filter{
+  display: flex;
+  gap: 4px;
+}
+.filter-title{
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+button{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 0 14px -3px #fff;
+  transition: all .25s;
+  cursor: pointer;
+}
+.filter-button.selected{
+  background-color: #61dafb;
+  box-shadow: 0 0 14px -3px #61dafb;
+  color: #fff;
+}
+
+.repositories-container{
+  /* display: flex; */
+  padding: 8px 8px 8px 0;
+  gap: 8px;
+  /* flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-rows: auto;
+}
+.repositorie{
+  border: 1px solid #545d68;
+  border-radius: 2px;
+  padding: 8px;
+
+  width: 100%;
+  max-width: 350px;
+  color: #fff;
+}
+.repositorie .name{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.repositorie p{
+  margin: 0;
+}
+.repositorie .fullname{
+  font-size: .8rem;
+}
+.repositorie .fullname a{
+  text-decoration: none;
+}
+.repositorie .description{
+  font-size: .9rem;
+  margin-top: 8px;
+}
+.repositorie .language{
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 2px;
+  color: #61dafb;
+  display: inline-block;
+  padding: 2px 4px;
+  margin-top: 16px;
+}
+
+.search-container{
+  padding: 8px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+input{
+  padding: 8px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 4px;
+}
+.search-container button:hover{
+  background-color: #f1f1f1;
+}
+
+@media screen and (min-width: 560px){
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  .repositories{
+    width: 100%;
+  }
+}
