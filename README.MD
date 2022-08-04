@@ -51,7 +51,7 @@
 
 <h3 id="react-componentization">GitHub Repos</h3>
 <a href="https://github.com/rangel-pci/BootcampDIO/tree/master/ReactJs%20-%20Componentization/project">/BootcampDIO/ReactJs - ReactJs - Componentization/</a>
-<h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/cap_github_api.png.png" alt="GitHub Client"></kbd></h6>
+<h6 align="center"><kbd><img src="https://github.com/rangel-pci/files/blob/master/cap_github_api.png" alt="GitHub Client"></kbd></h6>
 - :books: TDD, react testing library, best pratices, State, Hook, Effect
 
 ##
